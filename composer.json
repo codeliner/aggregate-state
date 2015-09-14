@@ -1,0 +1,28 @@
+{
+    "name": "codeliner/aggregate-state",
+    "description": "experimental package testing the holy three",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "experiment",
+        "prooph"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Miertsch",
+            "email": "contact@prooph.de",
+            "homepage": "http://www.prooph.de"
+        }
+    ],
+    "homepage": "https://github.com/codeliner",
+    "require": {
+        "php": ">=5.5",
+        "prooph/event-store" : "^5.0",
+        "prooph/service-bus" : "^4.3"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Codeliner\\Aggregate\\" : "src",
+            "CodelinerExample\\Aggregate\\" : "example"
+        }
+    }
+}
